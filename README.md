@@ -50,9 +50,10 @@ Two classification algorithms are compared:
 
 The initial experiments produced the following approximate results:
 
-Model	Test accuracy (2017)	Training accuracy
-Logistic Regression	~65%	To be verified
-Random Forest	~64%	100%
+| Model |	Test accuracy (2017) | Training accuracy |
+|---|---|---|
+| Logistic Regression |~65% |	To be verified |
+| Random Forest |	~64%	| 100% |
 
 The Logistic Regression model slightly outperformed the Random Forest on the 2017 test set.
 
@@ -75,12 +76,14 @@ Model performance is assessed using:
 A majority-class baseline is also used for comparison.
 
 ## Project Structure
+```
 tennis-match-prediction/
 ├── notebooks/
 │   └── tennis_match_prediction.ipynb
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```
 
 ## Getting Started
 1. Clone the repository
